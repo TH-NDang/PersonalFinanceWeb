@@ -7,8 +7,8 @@ import Footer from "../components/Footer/Footer";
 const Layout = ({ children }) => {
   return (
     <div className="flex min-h-screen flex-col">
-      <div className="bg-indigo-400 pb-12">
-        <div className="container mx-auto py-4">
+      <div className="bg-indigo-400">
+        <div className="container mx-auto">
           <Header />
         </div>
 
